@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; 
+}
+
+.country {
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  width: 300px; 
+  padding: 16px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.country p {
+  margin: 0 0 10px 0; 
+  font-size: 1rem; 
+}
+
+button {
+  border: 1px solid #ccc; 
+  padding: 8px; 
+  font-size: 1rem; 
+  background-color: #f9f9f9; 
+  cursor: pointer; 
+  transition: background-color 0.2s, border-color 0.2s; 
+}
